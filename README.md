@@ -9,6 +9,7 @@ _This project was done as a requirement for [Udacity's Front-End Web Development
 * [Dependencies](#dependencies)
 * [Resources](#resources)
 * [What I Learned](#lessons)
+* [Contribute](#contribute)
 
 
 ## Overview
@@ -19,7 +20,13 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 ### How to use this project
 
-The project scenario, as described above, provided the premise of the project itself. You may download this project from my github repository and look at the `feedreaders.js` file, where all of the edits to the project were made. Below is the rubric and how my coursemates and I were to complete this particular project.
+The project scenario, as described above, provided the premise of the project itself. You may clone or download the `.zip` file of this project from my github repository. Open the `index.html` file in your favorite browser and you'll be presented with a feed reader. At the very bottom, you'll see the Jasmin specs showing you the different test suites that was required to run for the project. For reference of the different test suites, you can look at the `feedreader.js` file in [`jasmine/spec/`](https://github.com/ginamc/FEND-feed-reader/tree/master/jasmine/spec)--this is where the bulk of my edits for the project were made. 
+
+In addition to the `feedreader.js` file, you can access the `app.js` file in [`/js/`](https://github.com/ginamc/FEND-feed-reader/tree/master/js) to look at application itself and how the two files reference each other.
+
+To test the application yourself, you may modify the different `TODOs` in the `feedreaders.js` file, reload the `index.html` in your browser, and check the Jasmine spec at the very bottom. 
+
+The following is the rubric and how my coursemates and I were to complete this particular project.
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
@@ -54,7 +61,8 @@ Testing is an important part of the development process and many organizations p
 Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
 ## Dependencies
-Udacity provided the starter files, which included a partially complete feedreader.js file, and a fully completed app.js file, among other files. 
+- Udacity provided the starter files, which included a partially complete feedreader.js file, and a fully completed app.js file, among other files. 
+- Jasmine
 
 ## Resources
 
@@ -65,3 +73,7 @@ Udacity provided the starter files, which included a partially complete feedread
 ## Lessons
 
 I learned how to use Jasmine to write a number of tests against a pre-existing application. This prjoject testsed the underlying business logic of an RSS application, as well as event handling and manipulation of the DOM.
+
+## Contribute
+
+This repo was part of a Udacity course and is not accepting contributions. You are, however, welcome to download or clone the repo and play with the package yourself.

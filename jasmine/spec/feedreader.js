@@ -9,7 +9,7 @@
  * to ensure they don't run until the DOM is ready.
  */
 $(function() {
-   
+
     describe('RSS Feeds', function() {
         /* This is our first test to make sure that the
          * allFeeds variable is defined and not empty. 
@@ -73,9 +73,9 @@ $(function() {
         });
     });
 
-    /* A new test suite named "Initial Entries" that ensures the loadFeed function does what it's supposed to */ 
+    /* A new test suite named "Initial Entries" that ensures the loadFeed function does what it's supposed to */
     describe('Initial Entries', function() {
-       
+
         /* This test ensures that when the loadFeed function is called, it completes its work */
         beforeEach(done => {
             loadFeed(0, done);
@@ -89,7 +89,7 @@ $(function() {
 
     /* This is a new test suite named "New Feed Selection" that ensures a new feed is loaded by the loadFeed function*/
     describe('New Feed Selection', function() {
-        
+
         /* This test ensures that the content of the feed changes when a 
          * new feed is loaded by the loadFeed function.
          */
@@ -100,12 +100,12 @@ $(function() {
             // loads first feed
             loadFeed(0, function() {
                 feedOne = $(".feed").html();
+
+                loadFeed(1, function() {
+                    feedTwo = $(".feed").html();
+                });
+                done();
             });
-            // loads second feed
-            loadFeed(1, function() {
-                feedTwo = $(".feed").html();
-            });
-           done();
         });
 
         it('content changes when a new feed is loaded', function() {

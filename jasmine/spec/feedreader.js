@@ -51,7 +51,7 @@ $(function() {
                 // feed name is not an empty string
                 expect(feed.name.length).not.toBe(0);
             });
-        })
+        });
 
     });
 

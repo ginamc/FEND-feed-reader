@@ -104,7 +104,7 @@ $(function() {
             });
             // loads second feed
             loadFeed(1, function() {
-                feedTWo = $(".feed").html();
+                feedTwo = $(".feed").html();
                 done();
             });
         });

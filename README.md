@@ -24,7 +24,9 @@ The project scenario, as described above, provided the premise of the project it
 
 In addition to the `feedreader.js` file, you can access the `app.js` file in [`/js/`](https://github.com/ginamc/FEND-feed-reader/tree/master/js) to look at application itself and how the two files reference each other.
 
-To test the application yourself, you may modify the different `TODOs` in the `feedreaders.js` file, reload the `index.html` in your browser, and check the Jasmine spec at the very bottom. 
+To test the application yourself, you may modify the different test items in the `feedreaders.js` file, reload the `index.html` in your browser, and check the Jasmine spec at the very bottom.
+
+E.g. in "The Menu" suite, change the menu's default visibility to `false` from `true`, reload the page in your browser and see if the specs pass.
 
 The following is the rubric and how my coursemates and I were to complete this particular project.
 

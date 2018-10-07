@@ -1,27 +1,25 @@
-# Project Overview
+# Feed Reader Project
+Welcome to the Feed Reader, a web-based application that reads RSS feeds. 
+
+_This project was done as a requirement for [Udacity's Front-End Web Development Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)._
+
+## Table of Contents
+* [Project Overview](#overview)
+* [Why this Project](#why)
+* [Dependencies](#dependencies)
+* [Resources](#resources)
+* [What I Learned](#lessons)
+
+
+## Overview
+
+_As provided by Udacity._
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
 
+### How to use this project
 
-## Why this Project?
-
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
-
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
-
-
-## What will I learn?
-
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
-
-
-## How will this help my career?
-
-* Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
-* Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
-
-
-# How will I complete this project?
+The project scenario, as described above, provided the premise of the project itself. You may download this project from my github repository and look at the `feedreaders.js` file, where all of the edits to the project were made. Below is the rubric and how my coursemates and I were to complete this particular project.
 
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
@@ -46,3 +44,24 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+
+## Why
+
+_As provided by Udacity._
+
+Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
+
+Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
+
+## Dependencies
+Udacity provided the starter files, which included a partially complete feedreader.js file, and a fully completed app.js file, among other files. 
+
+## Resources
+
+- Referenced [Matt Cranford's walkthru](https://matthewcranford.com/feed-reader-walkthrough-part-1-starter-code/)
+- Referenced [Lloan Alas' video walkthru](https://udenver.zoom.us/recording/play/-1Agy4wDME0_ab_zaNUiWquZOWdb4qQvCJENURKWT4CDtHWqXrE0yI7DSi8kfvm5?continueMode=true)
+- Referenced [Jasmine documentation](https://jasmine.github.io/index.html)
+
+## Lessons
+
+I learned how to use Jasmine to write a number of tests against a pre-existing application. This prjoject testsed the underlying business logic of an RSS application, as well as event handling and manipulation of the DOM.

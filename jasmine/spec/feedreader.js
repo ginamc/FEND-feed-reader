@@ -100,17 +100,16 @@ $(function() {
             // loads first feed
             loadFeed(0, function() {
                 feedOne = $(".feed").html();
-                done();
             });
             // loads second feed
             loadFeed(1, function() {
                 feedTwo = $(".feed").html();
-                done();
             });
+           done();
         });
 
         it('content changes when a new feed is loaded', function() {
-            expect(feedOne !== feedTwo).toBe(false);
+            expect(feedOne === feedTwo).toBe(false);
         });
 
     });

@@ -77,9 +77,7 @@ $(function() {
     describe('Initial Entries', function() {
 
         /* This test ensures that when the loadFeed function is called, it completes its work */
-        beforeEach(done => {
-            loadFeed(0, done);
-        });
+        beforeEach(done => loadFeed(0, done));
 
         it('at least 1 entry is found when loadFeed is called and done', function() {
             expect($(".feed .entry").length).toBeGreaterThan(0);
